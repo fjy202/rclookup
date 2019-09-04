@@ -3,14 +3,16 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ba47445c-d36c-4c65-ac6c-598757e6b81a</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>RefuseClassificationLookup.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>RefuseClassificationLookup</Name>
+    <Name>rcLookup</Name>
     <RootNamespace>RefuseClassificationLookup</RootNamespace>
+    <InterpreterId>MSBuild|env2|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +24,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="RefuseClassificationLookup.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env2\">
+      <Id>env2</Id>
+      <Version>3.7</Version>
+      <Description>env2 (Python 3.7)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>
+      </Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="MSBuild|env2|C:\Users\fjy\source\repos\RefuseClassificationLookup\RefuseClassificationLookup\rcLookup.pyproj" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
