@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "rcLookup", "RefuseClassificationLookup\rcLookup.pyproj", "{BA47445C-D36C-4C65-AC6C-598757E6B81A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "rclookupSetup", "rclookupSetup\rclookupSetup.vdproj", "{88FB4046-9999-47CB-ADDD-2A141BAB07E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BA47445C-D36C-4C65-AC6C-598757E6B81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BA47445C-D36C-4C65-AC6C-598757E6B81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FB4046-9999-47CB-ADDD-2A141BAB07E3}.Debug|Any CPU.ActiveCfg = Debug
+		{88FB4046-9999-47CB-ADDD-2A141BAB07E3}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

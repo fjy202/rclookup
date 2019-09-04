@@ -17,5 +17,7 @@ def main():
         if result["kw_arr"]!=None:
             for x in result["kw_arr"]:
                 print(x["Name"]+":"+x["TypeKey"]+"\n"+x["Note"])
+        else:
+            print("找不到。")
 if __name__=="__main__":
     main()

@@ -260,3 +260,7 @@ paket-files/
 __pycache__/
 *.pyc
 /RefuseClassificationLookup/env2
+/rclookupSetup
+/RefuseClassificationLookup/build
+/RefuseClassificationLookup/dist
+*.spec
